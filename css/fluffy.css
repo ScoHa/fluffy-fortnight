@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-submit {
+    margin-left: 5px;
+}
