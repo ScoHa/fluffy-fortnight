@@ -16,3 +16,25 @@ body {
 .search-submit {
     margin-left: 5px;
 }
+
+.result {
+    border: 1px solid #333;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.result img {
+    height: 90px;
+}
+
+.thumbnail {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.post-title {
+    font-weight: bold;
+}
