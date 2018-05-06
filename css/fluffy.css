@@ -28,11 +28,8 @@ body {
     border: 1px solid #333;
     height: 100px;
     display: flex;
+    /* justify-content: flex-start; */
     align-items: center;
-}
-
-.result img {
-    height: 90px;
 }
 
 .thumbnail {
@@ -40,6 +37,10 @@ body {
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+}
+
+.thumbnail img {
+    height: 90px;
 }
 
 .post-title {
